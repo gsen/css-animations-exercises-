@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script
       src="https://kit.fontawesome.com/adf5b3e4d3.js"
       crossorigin="anonymous"
@@ -102,6 +103,7 @@
         <p>
           <span>Your solution should appear below: </span><br /><br />
           <!-- <div>Enter Solution here</div> -->
+          <div class="btnPress">Click Me</div>
         </p>
         <a class="backToTop" href="#header"
           >Back To Top <i class="fas fa-arrow-up"></i
@@ -156,14 +158,15 @@
         <p class="solution">
           <span>Solution 2 should appear below: </span>
         </p>
+         <!-- <div>Enter solution here</div> -->
+         <div class="box-2"></div>
         <p class="solution">
           <span
             >For Solution 3, scroll back to the top of this page and mouseover
             the navbar items
           </span>
         </p>
-        <!-- <div>Enter solution here</div> -->
-        <div class="box-2"></div>
+       
         <a class="backToTop" href="#header"
           >Back To Top <i class="fas fa-arrow-up"></i
         ></a>
@@ -198,7 +201,7 @@
           <span>Solution 1 should appear below: </span>
         </p>
         <!-- <div>Enter solution here</div> -->
-
+        <div class="box-3"></div>
         <p class="solution">
           <span
             >Solution 2: Scroll up and check the arrow at the beginning of this
@@ -210,7 +213,7 @@
         ></a>
       </div>
       <div class="info">
-        <h3 id="exercise5">EXERCISE 5: Animation Libraries</h3>
+        <h3 id="exercise5" data-aos="zoom-in">EXERCISE 5: Animation Libraries</h3>
         <p>
           There are also a ton of animation libraries that can be used on your
           website to create quick animation effects. An example of such
@@ -249,6 +252,7 @@
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -259,5 +263,8 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
